@@ -119,3 +119,20 @@ body::after {
     left: 80%;
     animation-delay: -5s;
 }
+
+/* Estilos adicionales para listas anidadas */
+#consejos ul, #consejos ol {
+    margin-left: 20px;
+}
+
+#consejos ul ul, #consejos ol ul {
+    margin-top: 10px;
+    list-style-type: circle;
+}
+
+#consejos h3 {
+    color: #8B0000;
+    margin-top: 20px;
+    border-bottom: 2px solid #C41E3A;
+    padding-bottom: 10px;
+}
